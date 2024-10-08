@@ -1,0 +1,15 @@
+[package]
+name = "metal_pipe"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fastrand = "2.1.1"
+serenity = "0.12"
+tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread", "time"] }
+reqwest = "0.11.27"
+
+[features]
+default = ["dad-jokes", "yes-that"]
+dad-jokes = []
+yes-that = []
